@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Hugo Whisper Theme"
+title = "Kuruvi App"
 themesDir = "themes"
 theme = "hugo-whisper-theme"
 
@@ -22,26 +22,29 @@ summaryLength = 30
     url = "/docs/"
     weight = 2
 
+[[menu.main]]
+    name = "Github"
+    url = "https://github.com/Yokeshthirumoorthi/kuruvi"
+    weight = 3
+    
 [params]
   google_analytics_id=""
   homepage_button_link = '/docs'
   homepage_button_text = 'Read The Docs'
-  homepage_intro = 'Whisper is a documentation theme built with Hugo. The design and functionality is intentionally minimal.'
-  homepage_image = '/images/terminal.gif'
+  homepage_intro = 'Kuruvi is a smart photo management app.'
+  # homepage_image = '/images/terminal.gif'
 
   ## You can enable to add anchor links to header elements
   # enable_anchor_link = true
 
   [params.homepage_meta_tags]
-    meta_description = "Hugo Whisper is a documentation theme built with Hugo."
-    meta_og_title = "Hugo Whisper Theme"
+    meta_description = "Kuruvi App documentation site built with Hugo."
+    meta_og_title = "Kuruvi App Theme"
     meta_og_type = "website"
-    meta_og_url = "https://hugo-whisper.netlify.com"
+    meta_og_url = "https://kuruvidocs.netlify.com"
     meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
-    meta_og_description = "Hugo Whisper is a documentation theme built with Hugo."
+    meta_og_description = "Kuruvi App documentation site built with Hugo."
     meta_twitter_card = "summary"
-    meta_twitter_site = "@zerostaticio"
-    meta_twitter_creator = "@zerostaticio"
 
   [params.logo]
       mobile = "/images/logo-mobile.svg"

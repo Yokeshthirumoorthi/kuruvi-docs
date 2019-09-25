@@ -1,6 +1,10 @@
 ---
-title: 'Hugo Whisper Docs'
+title: 'Kuruvi'
 date: 2018-11-28T15:14:39+10:00
 ---
 
-Whisper is a documentation theme built with Hugo. The design and functionality is intentionally minimal. 
+A smart photo management app.
+
+
+
+When users upload a photo album, this app processes the photos in the album and gets them resized, organized by date, time and location, detect faces and recognize faces. The processed album is then statically serverd back to users via web.
