@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{ block "meta_tags" . }}{{end}}
+  <link rel="icon" href="{{ "favicon.png" | absURL}}">
+
+  {{ if .Site.IsServer }}
+  {{ $style := resources.Get "scss/style.scss" | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) }}
+  <link rel="stylesheet" href="{{ ($style).RelPermalink }}">
+  {{ else }}
+  {{ $style := resources.Get "scss/style.scss" | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" false) }}
+  <link rel="stylesheet" href="{{ ($style | minify | fingerprint).RelPermalink }}">
+  {{ end }}
+
+  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/photoswipe.css"/>
+  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/default-skin/default-skin.css"/>
+  <style>
+      
+      div.gallery {
+          display: flex;
+          flex-wrap: wrap;
+      }
+      div.gallery a {
+          flex-grow: 1;
+          object-fit: cover;
+          margin: 2px;
+          display: flex;
+      }
+
+      div.gallery a img {            
+          height: 200px;
+          object-fit: cover;
+          flex-grow: 1;
+      }
+
+  </style>
+
+  {{ block "header_css" . }}{{ end }}
+  <script type="application/javascript" src="{{ .Site.BaseURL }}js/photoswipe.min.js"></script>
+  <script type="application/javascript" src="{{ .Site.BaseURL }}js/photoswipe-ui-default.min.js"></script>
+
+</head>
+
+<body class='page {{ block "body_classes" . }}{{ end }}'>
+  {{ partial "main-menu-mobile.html" . }}
+  <div class="wrapper">
+    {{ partial "header.html" . }}
+
+    {{ $displaySidebar := false }}
+    {{ range .Site.Params.mainSections }}
+    {{ if eq $.Section . }}
+    {{ $displaySidebar = true }}
+    {{ end }}
+    {{ end }}
+
+    {{ if $displaySidebar }}
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            {{ partial "sidebar.html" . }}
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          {{ block "main" . }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    {{ else }}
+    {{ block "main" . }}
+    {{ end }}
+    {{ end}}
+  </div>
+
+  {{ partial "sub-footer.html" . }}
+
+  {{ $scripts := resources.Get "js/scripts.js" }}
+
+  {{ block "footer_js" . }}
+  {{ end }}
+
+  {{ if .Site.IsServer }}
+  <script type="text/javascript" src="{{ $scripts.RelPermalink }}"></script>
+  {{ else }}
+  <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}"></script>
+  {{ end }}
+
+  {{ partial "google-analytics.html" . }}
+  <script type="application/javascript" src="{{ .Site.BaseURL }}js/pswp_gallery.js"></script>
+
+    <!-- End copied from GitHub docs HugoPhotoSwipe -->
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
