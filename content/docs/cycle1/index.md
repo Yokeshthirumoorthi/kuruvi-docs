@@ -27,12 +27,6 @@ Services required for this functionality are
 **TODO**
 
 ### Architecture
-{{< load-photoswipe >}}
-{{< gallery >}}
-  {{< figure src="https://placekitten.com/600/400" >}}
-  {{< figure src="https://placekitten.com/1200/900" >}}
-{{< /gallery >}}
-
 **TODO**
 
 ### Testing

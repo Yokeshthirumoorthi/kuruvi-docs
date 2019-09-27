@@ -1,0 +1,91 @@
+---
+title: Cute Cats!
+album_date: "2017-02-07T22:53:32-05:00"
+properties:
+  animal: cat
+copyright:
+coverimage: pexels-photo-127028.jpeg
+creation_time: "2019-09-26T23:38:31-07:00"
+modification_time: "2019-09-27T00:58:51-07:00"
+
+photos:
+- file: cat-animal-cat-portrait-mackerel.jpg
+  name: cat-animal-cat-portrait-mackerel.jpg
+  alt:
+  caption: 
+
+- file: cat-pet-animal-domestic-104827.jpeg
+  name: cat-pet-animal-domestic-104827.jpeg
+  alt:
+  caption: 
+
+- file: kittens-cat-cat-puppy-rush-45170.jpeg
+  name: kittens-cat-cat-puppy-rush-45170.jpeg
+  alt:
+  caption: 
+
+- file: pexels-photo-126407.jpeg
+  name: pexels-photo-126407.jpeg
+  alt:
+  caption: 
+
+- file: pexels-photo-127028.jpeg
+  name: pexels-photo-127028.jpeg
+  alt:
+  caption: 
+
+- file: pexels-photo-26511.jpg
+  name: pexels-photo-26511.jpg
+  alt:
+  caption: 
+
+- file: pexels-photo-62640.jpeg
+  name: pexels-photo-62640.jpeg
+  alt:
+  caption: 
+
+- file: pexels-photo-96938.jpeg
+  name: pexels-photo-96938.jpeg
+  alt:
+  caption: 
+
+- file: pexels-photo.jpg
+  name: pexels-photo.jpg
+  alt:
+  caption: 
+
+- file: pexels-photo_001.jpg
+  name: pexels-photo_001.jpg
+  alt:
+  caption: 
+
+hashes:
+- file: cat-animal-cat-portrait-mackerel.jpg
+  hash: -8301611504472289280
+
+- file: cat-pet-animal-domestic-104827.jpeg
+  hash: -8559416448784228352
+
+- file: kittens-cat-cat-puppy-rush-45170.jpeg
+  hash: -6841521843562291200
+
+- file: pexels-photo-126407.jpeg
+  hash: -692074777238300672
+
+- file: pexels-photo-127028.jpeg
+  hash: 9024098623506525184
+
+- file: pexels-photo-26511.jpg
+  hash: 8221256465111276544
+
+- file: pexels-photo-62640.jpeg
+  hash: 7499805819852532736
+
+- file: pexels-photo-96938.jpeg
+  hash: 8377915152427949056
+
+- file: pexels-photo.jpg
+  hash: -7540806638701268992
+
+- file: pexels-photo_001.jpg
+  hash: 4806955404862347264

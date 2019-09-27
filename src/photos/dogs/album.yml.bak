@@ -1,0 +1,91 @@
+---
+title: Cute Dogs!
+album_date: "2017-02-07T23:14:55-05:00"
+properties:
+    animal: dog
+copyright:
+coverimage: wall-animal-dog-pet.jpg
+creation_time: "2019-09-27T00:53:08-07:00"
+modification_time: "2019-09-27T00:53:44-07:00"
+
+photos:
+- file: chihuahua-dog-puppy-cute-39317.jpeg
+  name: chihuahua-dog-puppy-cute-39317.jpeg
+  alt:
+  caption:
+
+- file: pexels-photo-117486.jpeg
+  name: pexels-photo-117486.jpeg
+  alt:
+  caption:
+
+- file: pexels-photo-139519.jpeg
+  name: pexels-photo-139519.jpeg
+  alt:
+  caption:
+
+- file: pexels-photo-192550.jpeg
+  name: pexels-photo-192550.jpeg
+  alt:
+  caption:
+
+- file: pexels-photo-57627.jpeg
+  name: pexels-photo-57627.jpeg
+  alt:
+  caption:
+
+- file: pexels-photo-59523.jpeg
+  name: pexels-photo-59523.jpeg
+  alt:
+  caption:
+
+- file: pexels-photo-60254.jpeg
+  name: pexels-photo-60254.jpeg
+  alt:
+  caption:
+
+- file: pexels-photo-69371.jpeg
+  name: pexels-photo-69371.jpeg
+  alt:
+  caption:
+
+- file: pexels-photo-69372.jpeg
+  name: pexels-photo-69372.jpeg
+  alt:
+  caption:
+
+- file: wall-animal-dog-pet.jpg
+  name: wall-animal-dog-pet.jpg
+  alt:
+  caption:
+
+hashes:
+- file: chihuahua-dog-puppy-cute-39317.jpeg
+  hash: 1402634185015891456
+
+- file: pexels-photo-117486.jpeg
+  hash: 5352203322405349376
+
+- file: pexels-photo-139519.jpeg
+  hash: 5658126622713091072
+
+- file: pexels-photo-192550.jpeg
+  hash: 6144042885198063616
+
+- file: pexels-photo-57627.jpeg
+  hash: 5385301872074557440
+
+- file: pexels-photo-59523.jpeg
+  hash: -4516648868781678592
+
+- file: pexels-photo-60254.jpeg
+  hash: 8693266268193288192
+
+- file: pexels-photo-69371.jpeg
+  hash: -2454698866870009856
+
+- file: pexels-photo-69372.jpeg
+  hash: 4341118339274438144
+
+- file: wall-animal-dog-pet.jpg
+  hash: 3322688547445839872

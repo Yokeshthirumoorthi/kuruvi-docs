@@ -23,9 +23,14 @@ summaryLength = 30
     weight = 2
 
 [[menu.main]]
+    name = "Demo"
+    url = "/galleries/"
+    weight = 3
+
+[[menu.main]]
     name = "Github"
     url = "https://github.com/Yokeshthirumoorthi/kuruvi"
-    weight = 3
+    weight = 4
     
 [params]
   google_analytics_id=""
