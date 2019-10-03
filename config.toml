@@ -23,19 +23,24 @@ summaryLength = 30
     weight = 2
 
 [[menu.main]]
-    name = "Demo"
+    name = "Try PhotoSwipe"
     url = "/galleries/"
     weight = 3
 
 [[menu.main]]
+    name = "Demo"
+    url = "http://157.230.150.42:8079"
+    weight = 4
+
+[[menu.main]]
     name = "Github"
     url = "https://github.com/Yokeshthirumoorthi/kuruvi"
-    weight = 4
+    weight = 5
     
 [params]
   google_analytics_id=""
-  homepage_button_link = '/docs'
-  homepage_button_text = 'Read The Docs'
+  homepage_button_link = 'http://157.230.150.42:8079'
+  homepage_button_text = 'Try A Demo'
   homepage_intro = 'Kuruvi is a smart photo management app.'
   # homepage_image = '/images/terminal.gif'
 
